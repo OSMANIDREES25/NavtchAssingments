@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for the dropdown menu */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* CSS for the nested items */
+    .dropdown-content .sub-menu {
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Dropdown Menu Example</h2>
+
+  <div class="dropdown">
+    <span>Menu 1</span>
+    <div class="dropdown-content">
+      <a href="#">Item 1</a>
+      <a href="#">Item 2</a>
+      <div class="dropdown-content sub-menu">
+        <span>Submenu 1</span>
+        <div class="dropdown-content">
+          <a href="#">Subitem 1</a>
+          <a href="#">Subitem 2</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <span>Menu 2</span>
+    <div class="dropdown-content">
+      <a href="#">Item 3</a>
+      <a href="#">Item 4</a>
+    </div>
+  </div>
+</body>
+</html>

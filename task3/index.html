@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .image-container {
+        display: inline-block;
+        margin: 30px;
+      }
+
+      .image-container img {
+        height: 30px;
+        width: 30px;
+        border: 3px solid black;
+      }
+
+      .image-container:hover::after {
+        content: "I am Image in Webpage";
+        background: #000;
+        color: #fff;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="/image3.jpg" alt="img" />
+    </div>
+  </body>
+</html>

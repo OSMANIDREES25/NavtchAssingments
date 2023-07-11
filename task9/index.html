@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: rgb(37, 233, 56);
+      }
+      p {
+        cursor: pointer;
+        color: blue;
+      }
+    </style>
+    <script>
+      function myfuntion() {
+        let text = document.getElementById("text");
+        text.style.color = "red";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>On CLICK Event</h1>
+    <p id="text" onclick="myfuntion()">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam
+      vero at ullam asperiores aut veritatis impedit, dolore minus illum
+      suscipit reprehenderit illo eos? Dicta et dolorum voluptates aliquam
+      sapiente.
+    </p>
+  </body>
+</html>

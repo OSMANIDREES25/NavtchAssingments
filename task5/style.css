@@ -1,0 +1,43 @@
+ nav {
+  padding: 0px;
+  margin: -8px;
+  
+}
+
+nav {
+    /* Set the background color */
+    background: #000;
+    color: #000;
+    position: fixed;
+    width: 100%;
+         
+}
+  
+  nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block; 
+  }
+  
+  nav ul li a {
+    display: block; 
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px; 
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; 
+  }
+  
+  body {
+    background-image: url('/img/image5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
